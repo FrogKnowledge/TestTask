@@ -1,0 +1,16 @@
+syntax="proto3";
+
+package handler;
+
+service MassiveHandlerService{
+	rpc Handle(NumberMassive) returns (Number);
+}
+
+message Number{
+int32 number=1;
+}
+
+message NumberMassive{
+repeated int32 mass=1;
+}
+
