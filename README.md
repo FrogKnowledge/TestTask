@@ -12,10 +12,10 @@ Test task;
 Server and client works on 40055 port;
 
 
-recommended install steps:
-git clone --recurse-submodules  https://github.com/FrogKnowledge/TestTask
-cd TestTask/
-mkdir build
-cd build
-cmake ..
-cmake --build .
+recommended install steps:  
+git clone --recurse-submodules  https://github.com/FrogKnowledge/TestTask  
+cd TestTask/  
+mkdir build  
+cd build  
+cmake ..  
+cmake --build .  
